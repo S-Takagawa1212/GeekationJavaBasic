@@ -24,10 +24,11 @@ public class ForWhile {
 		// 練習2
 		String[] programmingLanguages = {"Ruby", "Golang", "Java", "Python", "Typescript", "HTML", "Javascript"};
 		for (String programmingLangage : programmingLanguages) {
-			if (programmingLangage == "Java") {
+			// pythonは ==が同値性だが、Javaでは==は同一性を検証する。.equals()で同値性を検証すべき点に注意。
+			if (programmingLangage.equals("Java")) {
 				System.out.println("現在学習中の言語はJavaです.");
 				continue;
-			} else if (programmingLangage == "HTML") {
+			} else if (programmingLangage.equals("HTML")) {
 				System.out.println("HTMLはプロフラミング言語ではありません.");
 				break;
 			} else {
