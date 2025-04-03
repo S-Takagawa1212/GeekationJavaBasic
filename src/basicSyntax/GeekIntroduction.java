@@ -2,12 +2,12 @@ package basicSyntax;
 
 public class GeekIntroduction {
 	
-	public static void main(String[] args) {
-		specialSkill(5,15);
-		System.out.println("pass");
-	}
+//	public static void main(String[] args) {
+//		specialSkill(5,15);
+//		System.out.println("pass");
+//	}
 
-	protected void greeting(int age, double height) {
+	protected static void greeting(int age, double height) {
 		System.out.println("こんにちは! 私はGeek君でごわす。");
 		System.out.println("年は" + age + "でごわす。");
 		System.out.println("身長は" + height + "でごわす。");
