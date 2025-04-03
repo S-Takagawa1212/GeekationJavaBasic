@@ -15,9 +15,18 @@ public class GeekIntroduction {
 	
 	protected static void specialSkill(int num1, int num2) {
 	    judgeNumericRules(num1, num2, 300);
-		for (; num1 < num2; num1++) {
-			
-			
+		for (; num1 < num2 + 1; num1++) {
+			if (isMultipleOfX(num1, 15)) {
+			    System.out.println( num1 + "は3の倍数かつ5の倍数です。");
+			}
+			else if (isMultipleOfX(num1, 3)) {
+				System.out.println( num1 + "は3の倍数です。");
+			} else if (isMultipleOfX(num1, 5)) {
+				System.out.println( num1 + "は5の倍数です。");
+			} else {
+				System.out.println(num1);
+				
+			}
 		}	
 	}
 	
@@ -27,7 +36,7 @@ public class GeekIntroduction {
 	private static boolean isGreaterThanB(int a, int b) {
 		return (a < b);
 	}
-	// 第１、２引数が第３引数以下であればFalseを返す。
+	// 第１、２引数が第３引数以下であればTrueを返す。
 	private static boolean isEqualOrGreaterThanX(int a, int b ,int X) {
 		return (a <= X && b <= X);
 		
