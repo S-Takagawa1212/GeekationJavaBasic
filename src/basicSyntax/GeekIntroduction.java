@@ -18,14 +18,12 @@ public class GeekIntroduction {
 		for (; num1 < num2 + 1; num1++) {
 			if (isMultipleOfX(num1, 15)) {
 			    System.out.println( num1 + "は3の倍数かつ5の倍数です。");
-			}
-			else if (isMultipleOfX(num1, 3)) {
+			}else if (isMultipleOfX(num1, 3)) {
 				System.out.println( num1 + "は3の倍数です。");
 			} else if (isMultipleOfX(num1, 5)) {
 				System.out.println( num1 + "は5の倍数です。");
 			} else {
 				System.out.println(num1);
-				
 			}
 		}	
 	}
