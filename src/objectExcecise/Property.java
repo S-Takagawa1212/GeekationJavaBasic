@@ -14,35 +14,35 @@ public class Property {
 		this.price = price;
 	}
 
-	protected String getName() {
+	public String getName() {
 		return name;
 	}
 
-	protected void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
-	protected String getOwnerName() {
+	public String getOwnerName() {
 		return ownerName;
 	}
 
-	protected void setOwnerName(String ownerName) {
+	public void setOwnerName(String ownerName) {
 		this.ownerName = ownerName;
 	}
 
-	protected String getType() {
+	public String getType() {
 		return type;
 	}
 
-	protected void setType(String type) {
+	public void setType(String type) {
 		this.type = type;
 	}
 
-	protected Integer getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
-	protected void setPrice(Integer price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 	

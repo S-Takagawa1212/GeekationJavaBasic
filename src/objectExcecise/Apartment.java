@@ -8,16 +8,16 @@ public class Apartment extends Property {
 		this.floorPlan = floorPlan;
 	}
 
-	protected String getFloorPlan() {
+	public String getFloorPlan() {
 		return floorPlan;
 	}
 
-	protected void setFloorPlan(String floorPlan) {
+	public void setFloorPlan(String floorPlan) {
 		this.floorPlan = floorPlan;
 	}
 	
 	@Override
-	protected void printInfo() {
+	 protected void printInfo() {
 		super.printInfo();
 		System.out.println("間取り：" + getFloorPlan());
 		System.out.println("==============================");
