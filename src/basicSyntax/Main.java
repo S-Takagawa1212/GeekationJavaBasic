@@ -3,8 +3,9 @@ package basicSyntax;
 public class Main {
 
 	public static void main(String[] args) {
-		// コメントがかける
-		System.out.println("HWllo Geekation");
+		
+		GeekIntroduction.greeting(18, 64.5);
+		GeekIntroduction.specialSkill(3, 35);;
 	}
 
 }
